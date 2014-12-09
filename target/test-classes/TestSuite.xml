@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Demo Test Plan" verbose="1">
 	
-	<test name="Functional Tests" preserve-order="true">
+	<test name="Put in cart Test" preserve-order="true">
 		<classes>
- 			<class name="demo.test.DemoTest" />
+ 			<class name="test.TC_01_putInCart" />
         </classes>
-	</test>
+		<parameter name="itemNumToPut" value="0"></parameter></test>
 </suite>

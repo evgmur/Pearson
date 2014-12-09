@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Demo Test Plan]">
+  <parameter name="itemNumToPut" value="0"/>
+  <test name="Put in cart Test(failed)">
+    <parameter name="itemNumToPut" value="0"/>
+    <classes>
+      <class name="test.TC_01_putInCart">
+        <methods>
+          <include name="getParameters"/>
+          <include name="before"/>
+          <include name="after"/>
+          <include name="xTest"/>
+        </methods>
+      </class> <!-- test.TC_01_putInCart -->
+    </classes>
+  </test> <!-- Put in cart Test(failed) -->
+</suite> <!-- Failed suite [Demo Test Plan] -->

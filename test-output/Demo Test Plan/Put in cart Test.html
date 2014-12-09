@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>TestNG:  Put in cart Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Put in cart Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Dec 08 23:02:09 BRT 2014</td>
+</tr>
+<tr><td>Total time:</td><td>92 seconds (92148 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.TC_01_putInCart.xTest()'><b>xTest</b><br>Test class: test.TC_01_putInCart<br/>
+<a href="#Output-20853837" onClick='toggleBox("Output-20853837", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-20853837" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-20853837">
+------------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'test.TC_01_putInCart' =====================<br><br/>
+------------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+Form 'Home page' appears in 2040msec<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Label 'Menu item Компьютеры' :: Clicking<br><br/>
+Label 'Menu  sub-item Ноутбуки' :: Clicking<br><br/>
+Form 'Ноутбуки' appears in 5118msec<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Button 'В корзину' :: Clicking<br><br/>
+--------==[ Step 4 ]==--------<br><br/>
+Button 'Button Корзина' :: Clicking<br><br/>
+Form 'Cart form 'Корзина'' appears in 4250msec<br><br/>
+Item successfully added to the cart<br><br/>
+<br><br/>
+*****************************************************<br><br/>
+***** Test case: 'test.TC_01_putInCart' Passed! *****<br><br/>
+*****************************************************<br><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>91</td>
+<td>test.TC_01_putInCart@2f217633</td></tr>
+</table><p>
+</body>
+</html>
